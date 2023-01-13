@@ -1,0 +1,28 @@
+.container {
+    text-align: center;
+    border-radius: 30px;
+  backdrop-filter: blur(10px);
+  background-color: rgba(0, 0, 0, 0.295);
+    padding: 20px 0;
+    box-sizing: border-box;
+    min-width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+
+.container img {
+    display: block;
+    max-width: 64px;
+    align-self: center;
+}
+
+.container button {
+    cursor: pointer;
+    border-radius: 30px;
+    backdrop-filter: blur(10px);
+    border: none;
+    width: 50%;
+    align-self: center;
+}

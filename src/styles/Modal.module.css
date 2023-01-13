@@ -1,0 +1,13 @@
+.modal {
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    gap: 30px;
+    padding: 10px;
+}
+
+.modalBtn {
+    align-self: flex-start;
+    margin-left: 10px;
+    cursor: pointer;
+}

@@ -1,0 +1,11 @@
+.form {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form input {
+    margin-bottom: 10px;
+}
