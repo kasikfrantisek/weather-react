@@ -19,7 +19,7 @@ function App() {
     }
 
   useEffect(() => {
-      fetch( `http://api.weatherapi.com/v1/forecast.json?key=ecfafe3bb89d4f8fb8c134243230501&q=${city}&days=7&aqi=no&alerts=no`)
+      fetch( `https://api.weatherapi.com/v1/forecast.json?key=ecfafe3bb89d4f8fb8c134243230501&q=${city}&days=7&aqi=no&alerts=no`)
       .then(res => {
           if(res.ok) {
             return res.json()}
